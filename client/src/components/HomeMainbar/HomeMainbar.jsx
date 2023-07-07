@@ -76,7 +76,8 @@ const HomeMainbar = () => {
       navigate('/Auth')
     }
     else{
-      navigate('/AskQuestion')
+      // navigate('/AskQuestion')
+      navigate('/Otp')
     }
    }
 

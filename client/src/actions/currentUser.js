@@ -1,6 +1,6 @@
-export const setCurrentUser=(data)=>{
+export const setCurrentUser = (data) => {
     return{
-        type:'FETCH_CURRENT_USER',
-        payload:data
+        type: 'FETCH_CURRENT_USER',
+        payload: data
     }
 }
